@@ -32,3 +32,14 @@
 
 //   ageName[0] = 67;
 // }
+const str: string = "Hello";
+const num: number = 10;
+const isTrue: boolean = true;
+const isNull: null = null;
+const isUndefined: undefined = undefined;
+const isSymbol: symbol = Symbol("symbol");
+const isBigInt: bigint = BigInt(10);
+
+const arr: string[] = ["a", "b", "c"];
+const obj: { a: string; b: number } = { a: "a", b: 1 };
+const func: () => void = () => {};

@@ -25,3 +25,9 @@
 
 //   const newArray: number[] = arr.map((elem: number): number => elem * elem);
 // }
+
+const add = (num1: number, num2: number = 10): number => num1 + num2;
+
+ function addArrow(num1: number, num2: number): number {
+  return num1 + num2;
+}
