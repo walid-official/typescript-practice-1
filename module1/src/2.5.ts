@@ -65,9 +65,6 @@ const assertionFunc = (value: string | number): string => {
     return " Your Input is wrong"
   }
 };
-
-const result = assertionFunc("hellosdfsdfsdfsdf");
-console.log(result)
-
+ assertionFunc("hellosdfsdfsdfsdf");
 
 }

@@ -1,6 +1,5 @@
 {
   // promise
-
   type Todo = {
     id: number;
     userId: number;
@@ -19,7 +18,6 @@
   };
 
   getTodo();
-
   type Something = { something: string };
 
   // simulate
